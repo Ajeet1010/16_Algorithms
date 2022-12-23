@@ -10,7 +10,7 @@
             {
                 Console.WriteLine("Welcome to the Algorithm Programs ");
                 Console.WriteLine("1.BinarySearch\n" +
-                                  "2.Insertion Sort\n3.Exit");
+                                  "2.Insertion Sort\n3.Bubble Sort\n4.Exit");
                 Console.WriteLine(" Select the option ");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
@@ -28,6 +28,12 @@
                         break;
 
                     case 3:
+                        Bubble bubble = new Bubble();
+                        int[] arr2 = { 5, 2, 1, 4, 3 };
+                        bubble.Sort(arr2);
+                        break;
+
+                    case 4:
                         flag = false;
                         break;
                 }

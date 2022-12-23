@@ -10,7 +10,7 @@
             {
                 Console.WriteLine("Welcome to the Algorithm Programs ");
                 Console.WriteLine("1.BinarySearch\n" +
-                                  "2.Exit");
+                                  "2.Insertion Sort\n3.Exit");
                 Console.WriteLine(" Select the option ");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
@@ -22,6 +22,12 @@
                         break;
 
                     case 2:
+                        int[] arr = { 2, 1, 3 };
+                        Insertion insertion = new Insertion();
+                        insertion.Sort(arr);
+                        break;
+
+                    case 3:
                         flag = false;
                         break;
                 }

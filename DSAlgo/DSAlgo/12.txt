@@ -1,0 +1,50 @@
+*BL expectations from every engrs for the RFP program* -
+
+1. Dedicate at least 8-10 hrs a day excluding the regular session and doubt session timing.
+2. Go for proper knowledge and concepts understanding rather focussing on just completion of tasks.
+3. Join doubt session regularly whether you are having doubt or not in order to learn from other's doubts.
+4. Don't take unwanted leaves until and unless its an emergency.
+5. Follow Git process and its programming religiously. All programs should be
+in respective repos and branches with daily multi commits.
+
+For Visual Studio 2019/2022 Community Edition : https://visualstudio.microsoft.com/downloads/
+Git Bash on Windows / Mac : https://git-scm.com/downloads
+
+28/11/2022
+
+https://www.tutorialsteacher.com/csharp/csharp-data-types
+https://www.w3schools.com/cs/cs_data_types.php
+https://www.w3schools.com/cs/cs_type_casting.php
+https://www.geeksforgeeks.org/c-sharp-type-casting/
+https://www.tutorialspoint.com/csharp/csharp_type_conversion.htm
+
+29/11/2022
+
+using System;
+
+namespace AccessModifiersEx
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+
+https://www.geeksforgeeks.org/c-sharp-coding-standards/
+https://www.geeksforgeeks.org/c-sharp-types-of-variables/
+
+30/11/2022
+
+I shared a Jam file with the meeting: https://jamboard.google.com/d/1T2RocfU6VJ60hZt_0BcMDoHjWUuqLRp7A_9sYosU4Vc/edit?usp=meet_whiteboard
+Vijayalakshmi Mannay08:40
+I shared a Jam file with the meeting: https://jamboard.google.com/d/1NIfaGqBoiV06AB7uwV62t4gqrEvA5-1XtOEam29gv_o/edit?usp=meet_whiteboard
+
+01/12/2022
+
+I shared a Jam file with the meeting: https://jamboard.google.com/d/1DyoNk06sXnTmlzb9_aNcObcy5sfCqGWklwsZIMaGOQY/edit?usp=meet_whiteboard
+.net, clr--> 
+
+02/12/2022

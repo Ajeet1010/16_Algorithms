@@ -2,7 +2,7 @@
 {
     class Program
     {
-        public static string binaryTextPath = @"E:\Visual Studio\Fellowship\16_Algorithms\DSAlgo\DSAlgo";
+        public static string binaryTextPath = @"E:\Visual Studio\Fellowship\16_Algorithms\DSAlgo\DSAlgo\12.txt";
         static void Main(string[] args)
         {
             bool flag = true;
@@ -10,8 +10,9 @@
             {
                 Console.WriteLine("Welcome to the Algorithm Programs ");
                 Console.WriteLine("1.BinarySearch\n" +
-                                  "2.Insertion Sort\n3.Bubble Sort\n4.Exit");
-                Console.WriteLine(" Select the option ");
+                                  "2.Insertion Sort\n3.Bubble Sort\n4.Anagram\n" +
+                                  "5.Exit");
+                Console.WriteLine("Select the option ");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -34,6 +35,11 @@
                         break;
 
                     case 4:
+                        Anagram anagram = new Anagram();
+                        anagram.CheckAnagram("Heart", "Earth");
+                        break;
+
+                    case 5:
                         flag = false;
                         break;
                 }

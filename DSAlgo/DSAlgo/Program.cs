@@ -11,7 +11,7 @@
                 Console.WriteLine("Welcome to the Algorithm Programs ");
                 Console.WriteLine("1.BinarySearch\n" +
                                   "2.Insertion Sort\n3.Bubble Sort\n4.Anagram\n" +
-                                  "5.String function & Regex\n6.Exit");
+                                  "5.String function & Regex\n6.Prime No upto 1000\n7.Exit");
                 Console.WriteLine("Select the option ");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
@@ -45,6 +45,12 @@
                         break;
 
                     case 6:
+                        Console.WriteLine("The prime numbers are : ");
+                        PrimeNo primeNo = new PrimeNo();
+                        primeNo.FindPrime();
+                        break;
+
+                    case 7:
                         flag = false;
                         break;
                 }

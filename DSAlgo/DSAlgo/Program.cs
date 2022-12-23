@@ -11,7 +11,7 @@
                 Console.WriteLine("Welcome to the Algorithm Programs ");
                 Console.WriteLine("1.BinarySearch\n" +
                                   "2.Insertion Sort\n3.Bubble Sort\n4.Anagram\n" +
-                                  "5.Exit");
+                                  "5.String function & Regex\n6.Exit");
                 Console.WriteLine("Select the option ");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
@@ -36,10 +36,15 @@
 
                     case 4:
                         Anagram anagram = new Anagram();
-                        anagram.CheckAnagram("Heart", "Earth");
+                        anagram.CheckAnagram("abcd", "dcba");
                         break;
 
                     case 5:
+                        RegEx regEx = new RegEx();
+                        regEx.ReplaceString();
+                        break;
+
+                    case 6:
                         flag = false;
                         break;
                 }
